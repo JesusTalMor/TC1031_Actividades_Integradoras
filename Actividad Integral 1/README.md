@@ -33,3 +33,15 @@ El programa cuenta con multiples menus con los que se facilita el uso y manejo d
 Dentro del programa se utilizaron 2 metodos de ordenamiento para el acomodo de los objetos los cuales fueron:
 * Burbuja
 * Selección
+
+#### Metodo burbuja para ordenar arreglos (bubbleSort)
+
+Esta función presenta una complejidad cuadra de O(n^2), esto es debido a que su funcionamiento se basa en 2 ciclos for anidados los cuales van recorriendo todo el arreglo que para este caso es un arreglo de objetos, mediante el cual se toma el maximo valor que se encuentre en el arreglo ya sea de cualquier atributo, y este se coloca hasta la parte maxima del arreglo, posteriormente esta casilla queda bloqueada del ciclo anidado de for ya que ese espacio ya se ha acomodado dando un comportamiento en el cual el ciclo no siempre es n, pero ya que se esta tomando el peor de los casos su complejidad se mantiene en O(n^2). Viendo de forma matemática al tener a dos ciclos for con base a n (que en este caso son 30 objetos) tendriamos un aproximado de 900 pasos en el peor de los casos para acomodar todo el arreglo de objetos.
+
+#### Metodo de seleccion para ordenar arreglos (SelectionSort)
+
+Esta función presenta de igual forma presenta una complejidad de O(n^2), esto es debido que de la misma manera que el bubbleSort esta función cuenta con dos ciclos for anidados, en los cuales se tiene un comportamiento similar que el bubbleSort, pero en este caso se tiene un ciclo for recorriendo todo el arreglo en busca del menor valor el cual guarda o mantiene para posteriormente intercambiarlo con  la posicion que le corresponde por ejemplo para la posicion 0 del arreglo se tendria el valor mas pequeño de todo el arreglo dando como resultado que si dentro de esta posicion esta un numero de 350, un ciclo for recorrerá todo el arreglo en busca de un numero menor a todos y los remplazara en la posición 0. Es por lo mismo que en el caso anterior el hecho de que siempre se este recorriendo el arreglo por el ciclo for dentro del ciclo for que su complejidad se mantiene en O(n^2) en el peor de los casos.
+
+### Busqueda 
+
+Para este caso solo se utilizo un metodo de busqueda que es la busqueda secuencial en el cual se recorre todo el arreglo en busqueda de algun aspecto, en este caso del programa se buscaban atributos dentro de los objetos y se imprimian aquellos objetos que contarán con estos atributos. Por lo mismo de que la función se basa en recorrer todo el arreglo en busqueda de algun aspecto o atributo es que este tiene una complejidad de O(n) ya que dependiendo de la cantidad de datos son los pasos que tardará en recorrer todo el arreglo hasta encontrarlo.
