@@ -1,0 +1,30 @@
+Libro Amplificador,435,20,0,0,0,0,0
+Brisa de Eter,850,30,0,0,0,0,0
+Codice Diabolico,900,35,0,0,10,0,0
+Velo de la Banshee,3000,75,0,0,10,60,0
+Baculo del Arcangel,3200,50,0,650,10,0,0
+Protocinturon Hextech,2500,60,300,0,10,0,0
+Revolver Hextech,1050,40,0,0,0,0,0
+GLP Hextech,2800,80,0,600,20,0,0
+Baculo del Vacio,2650,70,0,0,0,0,0
+Vara Grande,1250,60,0,0,0,0,0
+Guardabrazo del Buscador,1100,20,0,0,0,0,30
+Capitulo Perdido,1300,40,0,300,10,0,0
+Antifaz Embrujado,1500,35,200,0,0,0,0
+Sortija de Doran,400,15,60,0,0,0,0
+Orbe del Olvido,1600,20,200,0,0,0,0
+Varita Explosiva,850,40,0,0,0,0,0
+Robaalamas de Mejai,1400,20,0,200,0,0,0
+Pebetero Ardiente,2300,60,0,50,10,0,0
+Sombras Gemelas,2400,70,0,0,10,0,0
+Vara de las Edades,2600,60,300,300,0,0,0
+Sombrero de Rabadon,3600,120,0,0,0,0,0
+Cetro de Rylai,2600,90,300,0,0,0,0
+Sello de Oscuridad,350,10,0,100,0,0,0
+Reloj de Arena de Zhonya,2900,75,0,0,10,0,75
+Atrapahechizos,2900,120,0,0,10,0,0
+Morellonomicon,3000,70,300,0,0,0,0
+Tormento de Liandry,3100,75,300,0,0,0,0
+Grial Impio de Athene,2100,30,0,100,10,30,0
+Maldicion del Liche,3200,80,0,250,10,0,0
+Eco de Luden,3200,90,0,600,20,0,0
