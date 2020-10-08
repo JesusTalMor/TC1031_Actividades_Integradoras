@@ -38,10 +38,10 @@ Esta funcion o metodo presenta una complejidad algo interesante ya que se ayuda 
 
 Esta función presenta una complejidad de O(n), ya que solo se basa en recorrer todo el arreglo de objetos e ir imprimiendo todos los objetos presentando de manera constante una complejidad de O(n).
 
-### BuscarLista()
+### Metodo BuscarLista()
 
 Esta función tiene una complejidad de O(n) porque al igual que la función anterior esta tiene que recorrer todo el arreglo en busca de objetos con los atributos seleccionados dando como resultado que en el peor de los casos se recorra todo el arreglo en busca de los objetos.
 
-### GuardarLista()
+### Metodo GuardarLista()
 
 Esta función lo que realiza es que recorre todo el arreglo de objetos y va consiguiendo de estos toda la información que posteriormente guarda en el archivo txt en un solo paso, dando una complejidad de O(n) hasta finalizar todo el arreglo de objetos.
