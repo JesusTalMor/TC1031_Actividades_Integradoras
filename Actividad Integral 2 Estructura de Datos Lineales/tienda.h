@@ -56,7 +56,6 @@ class Tienda {
     void mostrarLista();
     void buscarLista(int);
     void guardarLista();
-    void guardarObjeto();
 
     //Metodos auxiliares de listas ligadas
     void addFirst(Item);
