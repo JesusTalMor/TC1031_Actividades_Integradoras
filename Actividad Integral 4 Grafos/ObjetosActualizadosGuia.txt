@@ -1,3 +1,5 @@
+Estructura de los datos.
+Nombre del Objeto,  Costo,  Poder de Habilidad,   Vida, Mana, Resistencia Magica, Armadura, Aceleracion de Habilidad, Penetracion Magica
 Iniciales
 0 - Sello de la Oscuridad,350,15,40,0,0,0,0,0
 1 - Lagrima de la Diosa,400,0,0,150,0,0,0,0
