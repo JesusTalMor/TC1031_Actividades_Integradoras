@@ -2,10 +2,11 @@
 * Proyecto Integrador Conceptos Basicos y Algoritmos Fundamentales
 * Autor: Jesus David Talamantes Morales
 * Matricula: A01706335
-* Fecha de Creacion: 20/09/2020 Actualizado: 01/11/2020
-* Este .h se dedica a la creacion de un arbol heap minimo con objetos de la Clase
-* item, lo cual resulta en una lista con aputadores los cuales apuntan
-* a objetos de tipo item para el manejo de estos.
+* Fecha de Creacion: 20/09/2020 Actualizado: 19/11/2020
+* Este .h se dedica a la creacion de un grafo aciclico direccionado con objetos de la Clase
+* item, lo cual resulta en una estructura de nodos y arcos conectados donde cada nodo tiene
+* una objeto item.
+*
 */
 
 #ifndef TIENDA_H_
@@ -46,7 +47,7 @@ public:
   void loadGraphList(string);
   void printAdjList(int,int);
   void BFS(int);
-  void BFSHelper(int current, queue<int> &qu, bool visited[], int paths[], vector<int> &visitedOrder);
+  void BFSHelper(int current, queue<int> &qu, bool visited[], vector<int> &visitedOrder);
   void printVisited(vector<int> &visitedOrder);
 };
 
@@ -135,19 +136,17 @@ void Tienda::BFS(int inicio){
   queue <int> qu; //Usa una queue para ubicar el siguiente elemento
 	bool visited[nodos]; //Crea un arreglo boleano para revisar los nodos visitados
 	vector<int> visitedOrder; //Usa un vector para guardar el orden de visita
-	int path[nodos]; //Utilizamos un array para guardar el camino de cada nodo
 	for (int i = 0; i < nodos; i++){
 		visited[i] = false; //Define cada nodo como no visitado
-		path[i] = -1; //Define cada padre como -1
 	}
 	qu.push(inicio); //añade el nodo raiz a la cola Qu
-	BFSHelper(inicio, qu, visited, path, visitedOrder); // Llama la funcion auxiliar
+	BFSHelper(inicio, qu, visited, visitedOrder); // Llama la funcion auxiliar
 	printVisited(visitedOrder);
 	//Imprime los nodos visitados y el camino que se siguio para encontrar el nodo meta
 };
 
 /*Funcion auxiliar de BFS usando recursividad para recorrer todo el arreglo*/
-void Tienda::BFSHelper(int current, queue<int> &qu, bool visited[], int paths[], vector<int> &visitedOrder){
+void Tienda::BFSHelper(int current, queue<int> &qu, bool visited[], vector<int> &visitedOrder){
   if(qu.empty()){
     return;
   } else {
@@ -160,15 +159,10 @@ void Tienda::BFSHelper(int current, queue<int> &qu, bool visited[], int paths[],
       if (visited[adjList[current][i]] == false){
         qu.push(adjList[current][i]);
         //Empuja al queue cada nodo conectado si es que estos no han sido visitados
-        if (paths[adjList[current][i]] == -1){
-          paths[adjList[current][i]] = current;
-          //Revisa si los nodos estan en posicion de -1 en path si es asi cambia el
-          //valor por current
         }
       }
     }
-      BFSHelper(current, qu, visited, paths, visitedOrder); // Funcion recursiva
-  }
+      BFSHelper(current, qu, visited, visitedOrder); // Funcion recursiva
 }
 
 /*Funcion auxiliar para imprimir los resultados en este caso el orden de visita*/
