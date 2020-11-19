@@ -45,7 +45,6 @@ public:
   //Funciones auxiliares de Grafos
   void loadGraphList(string);
   void printAdjList(int,int);
-  string printAdjMat();
   void BFS(int);
   void BFSHelper(int current, queue<int> &qu, bool visited[], int paths[], vector<int> &visitedOrder);
   void printVisited(vector<int> &visitedOrder);
