@@ -2,8 +2,7 @@
 
 ## Tienda de objetos mejorada de League of Legends
 
-Mejorar esta madre
-El programa aqui presentado es en su mayoría un pequeño prototipo con el cual se puede observar un catalogo de objetos del juego MOBA de league of legends desarrollado por la empresa Riot Games. Dentro de este catalo de 30 objetos los cuales pertenecen a la clase de "Magos" ya que utilizan poder de habilidad o magia, dentro de los cuales se puede consultar el nombre de cada objeto, el costo del mismo, y las estadisticas que aporta como los son: vida, mana, poder de habilidad, resistencia magica, armadura etc.
+El programa aqui presentado es una nueva mejora para la tienda de objetos para la clase mago del juego MOBA de League of Legends dessaroolado por la empresa de Riot Games. Dentro de este nuevo y mejorado catalogo que fue cambiado debido a cambios de pretemporada, se presentan 41 objetos diferentes de la clase mago y ahora con la implementacion de un grafo se pueden observar las conexiones entre los objetos y como estos pueden evolucionar a objetos mucho mas poderosos. Dentro de el txt ObjetosActualizadosGuia.txt se podrán observar las clases y atributos de todos los objetos presentados.
 
 Para esta cuarta entrega se implemento u
 ## Especificaciones de uso
