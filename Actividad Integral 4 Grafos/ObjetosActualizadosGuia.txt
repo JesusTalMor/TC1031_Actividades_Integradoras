@@ -1,0 +1,46 @@
+Iniciales
+0 - Sello de la Oscuridad,350,15,40,0,0,0,0,0
+1 - Lagrima de la Diosa,400,0,0,150,0,0,0,0
+Basicos
+2 - Armadura de Tela,300,0,0,0,15,0,0,0
+3 - Cristal de Zafiro,350,0,0,250,0,0,0,0
+4 - Cristal de Rubi,400,0,150,0,0,0,0,0
+5 - Libro Amplificador,435,20,0,0,0,0,0,0
+6 - Manto Anulamagia,450,0,0,0,0,25,0,0
+7 - Cronometro,650,0,0,0,0,0,0,0
+8 - Varita Explosiva,850,40,0,0,0,0,0,0
+9 - Vara Innecesariamente Grande,1250,60,0,0,0,0,0,0
+Épicos
+10 - Brillo,700,0,0,0,0,0,0,0
+11 - Gemaluz,800,0,200,0,0,0,10,0
+12 - Orbe del Olvido,800,30,0,0,0,0,0,0
+13 - Brisa de Eter,850,30,0,0,0,0,0,0
+14 - Codice Diabolico,900,35,0,0,0,0,10,0
+15 - Guardabrazo del Buscador,900,30,0,0,15,0,0,0
+16 - Cinturon de Gigante,900,0,350,0,0,0,0,0
+17 - Alternador Hextech,1050,40,0,0,0,0,0,0
+18 - Barrera Esmeralda,1200,25,0,0,0,25,0,0
+19 - Joya Maldita,1250,25,0,0,0,0,0,15
+20 - Capitulo Perdido,1300,40,0,300,0,0,10,0
+21 - Mirada Absorbente,1300,20,150,0,0,0,0,0
+Legendarios
+22 - Robaalmas de Mejai,1600,20,100,0,0,0,0,0
+23 - Baculo del Vacio,2500,65,0,0,0,0,0,40
+24 - Morellonomicon,2500,70,250,0,0,0,0,0
+25 - Reloj de Arena de Zhonya,2500,65,0,45,0,10,0
+26 - Velo de la Banshee,2500,65,0,0,0,45,10,0
+27 - Baculo del Arcangel,3000,60,0,400,0,0,0,0
+28 - Maldicion del Liche,3000,80,0,0,0,0,0,0
+29 - Cetro de Cristal de Rylai,3000,90,350,0,0,0,0,0
+30 - Diente de Nashor,3000,100,0,0,0,0,0,0
+31 - Enfoque al Horizonte,3000,100,0,0,0,0,0,0
+32 - Impulso Cosmico,3000,70,200,0,0,0,30,0
+33 - Abrazo Demoniaco,3000,70,350,0,0,0,0,0
+34 - Sombrero Mortifero de Rabadon,3800,120,0,0,0,0,0,0
+Miticos
+35 - Cinturon Cohete Hextech,3200,80,250,0,0,0,15,0
+36 - Agrietador,3200,80,150,0,0,0,15,0
+37 - Cosechador Nocturno,3200,80,250,0,0,0,15,0
+38 - Angustia de Liandry,3400,80,0,600,0,0,20,0
+39 - Tempestad de Luden,3400,80,0,600,0,0,10,10
+40 - Hielo Eterno,3400,80,200,600,0,0,10,0
