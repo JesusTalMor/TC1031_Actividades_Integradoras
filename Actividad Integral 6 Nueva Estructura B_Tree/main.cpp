@@ -12,7 +12,7 @@
 #include <sstream>
 #include <cstring>
 #include <string>
-#include "BTree.h"
+#include "Btree.h"
 
 using namespace std;
 
